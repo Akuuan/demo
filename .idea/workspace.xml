@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26722ef2-dae9-461f-b55b-e231bb8d6e5a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/akuan/common/jwt/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/akuan/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/akuan/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/akuan/common/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/akuan/common/utils/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/akuan/common/config/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/akuan/common/config/exception/GuiguException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/akuan/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/akuan/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/akuan/security/custom/CustomMd5PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/akuan/security/custom/CustomUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/akuan/security/fillter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/akuan/security/fillter/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/mapper/xml/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/mapper/xml/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/auth/utils/MenuHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/controller/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/controller/ProcessTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/controller/ProcessTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/mapper/ProcessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/mapper/ProcessTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/mapper/ProcessTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/ProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/ProcessTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/ProcessTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/impl/ProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/impl/ProcessTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/process/service/impl/ProcessTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/config/WeChatMpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/config/WechatAccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/controller/WechatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/akuan/wechat/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/ProcessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/akuan/auth/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/akuan/auth/TestmapperDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/akuan/auth/activiti/ProcessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/test/java/com/akuan/code/CodeGet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q1Fl0G3yz7MtBsPhK9TWwNLEhZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/oa/oa-parent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8a604bca848cb439ecf3b1c0c25b4f2b&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.akuan.process.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication (1)">
+    <configuration name="ProcessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuan.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akuan.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.akuan.auth.activiti.ProcessTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTest.deployProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuan.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akuan.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.akuan.auth.activiti.ProcessTest" />
+      <option name="METHOD_NAME" value="deployProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTest.deployProcessByZip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuan.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akuan.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.akuan.auth.activiti.ProcessTest" />
+      <option name="METHOD_NAME" value="deployProcessByZip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessTest.depolyProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuan.auth.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akuan.auth.activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.akuan.auth.activiti.ProcessTest" />
+      <option name="METHOD_NAME" value="depolyProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akuan.ServiceAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akuan.auth.ServiceAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ProcessTest" />
+      <item itemvalue="JUnit.ProcessTest.deployProcess" />
+      <item itemvalue="JUnit.ProcessTest.deployProcessByZip" />
+      <item itemvalue="JUnit.ProcessTest.depolyProcess" />
+      <item itemvalue="Spring Boot.ServiceAuthApplication" />
+      <item itemvalue="Spring Boot.ServiceAuthApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceAuthApplication (1)" />
+        <item itemvalue="JUnit.ProcessTest.deployProcess" />
+        <item itemvalue="JUnit.ProcessTest.deployProcessByZip" />
+        <item itemvalue="JUnit.ProcessTest" />
+        <item itemvalue="JUnit.ProcessTest.depolyProcess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="26722ef2-dae9-461f-b55b-e231bb8d6e5a" name="变更" comment="" />
+      <created>1684513330121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684513330121</updated>
+      <workItem from="1684513332830" duration="2364000" />
+      <workItem from="1684770274937" duration="3435000" />
+      <workItem from="1684855760666" duration="2980000" />
+      <workItem from="1684940099982" duration="194000" />
+      <workItem from="1684941188118" duration="6640000" />
+      <workItem from="1685031838524" duration="2836000" />
+      <workItem from="1685114617311" duration="4395000" />
+      <workItem from="1685206774168" duration="3017000" />
+      <workItem from="1685279749108" duration="599000" />
+      <workItem from="1685289583736" duration="488000" />
+      <workItem from="1685454755266" duration="2413000" />
+      <workItem from="1685627281075" duration="5009000" />
+      <workItem from="1685894203935" duration="5041000" />
+      <workItem from="1688833838447" duration="34000" />
+      <workItem from="1689001607672" duration="5470000" />
+      <workItem from="1689058906538" duration="704000" />
+      <workItem from="1689061896781" duration="3143000" />
+      <workItem from="1689178225764" duration="4711000" />
+      <workItem from="1689235829572" duration="9706000" />
+      <workItem from="1689317945834" duration="604000" />
+      <workItem from="1689323037128" duration="7002000" />
+      <workItem from="1689354951875" duration="979000" />
+      <workItem from="1689440188804" duration="1932000" />
+      <workItem from="1689520073689" duration="5704000" />
+      <workItem from="1689594972955" duration="971000" />
+      <workItem from="1689605332160" duration="7816000" />
+      <workItem from="1689661437743" duration="7340000" />
+      <workItem from="1689670990256" duration="1238000" />
+      <workItem from="1689678430513" duration="8404000" />
+      <workItem from="1689747338046" duration="4322000" />
+      <workItem from="1689781853135" duration="4459000" />
+      <workItem from="1689836309008" duration="4470000" />
+      <workItem from="1690364847176" duration="6000" />
+      <workItem from="1690631775588" duration="43000" />
+      <workItem from="1691147719363" duration="645000" />
+      <workItem from="1693902126795" duration="381000" />
+      <workItem from="1693902516009" duration="5043000" />
+      <workItem from="1694078938949" duration="667000" />
+      <workItem from="1694879512587" duration="599000" />
+      <workItem from="1695046263804" duration="8027000" />
+      <workItem from="1695092301813" duration="3820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((RouterVo)((java.util.ArrayList)((HashMap.Node)((HashMap)map).entrySet().toArray()[3]).getValue()).get(0)).path" custom="java.util.HashMap.Node,java.util.HashMap,com.atguigu.vo.system.RouterVo,java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
